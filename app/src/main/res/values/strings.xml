@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WordCounter</string>
+    <string name="hint_input_text">Įvesk tekstą čia…</string>
+    <string name="btn_count">Skaičiuoti</string>
+    <string name="err_empty_input">Įvesk tekstą prieš skaičiuodamas.</string>
+    <string name="lbl_result_placeholder">Rezultatas bus rodomas čia</string>
+</resources>

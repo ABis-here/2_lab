@@ -1,0 +1,8 @@
+<resources>
+    <string-array name="count_options">
+        <item>Sakiniai</item>
+        <item>Žodžiai</item>
+        <item>Rašybos ženklai</item>
+        <item>Skaičiai</item>
+    </string-array>
+</resources>
