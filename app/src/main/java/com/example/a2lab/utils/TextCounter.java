@@ -2,7 +2,6 @@ package com.example.a2lab.utils;
 
 public class TextCounter {
 
-    // REGEX #1:
     public static int getWordsCount(String input) {
         if (input == null) return 0;
 
@@ -15,7 +14,6 @@ public class TextCounter {
         return c;
     }
 
-    // REGEX #2:
     public static int getNumbersCount(String input) {
         if (input == null) return 0;
         java.util.regex.Matcher m = java.util.regex.Pattern.compile("\\b\\d+\\b").matcher(input);
@@ -24,7 +22,6 @@ public class TextCounter {
         return c;
     }
 
-    // BE REGEX #1
     public static int getSentencesCount(String input) {
         if (input == null) return 0;
         int c = 0;
@@ -35,7 +32,6 @@ public class TextCounter {
         return c;
     }
 
-    // BE REGEX #2:
     public static int getPunctuationCount(String input) {
         if (input == null) return 0;
         int c = 0;
